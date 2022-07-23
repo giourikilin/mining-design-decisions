@@ -359,7 +359,9 @@ def main():
     if len(args.input_files) > 1:
         warnings.warn('No classification data is generated when >= 2 files are given.')
 
-    args.input_files = [args.input_files]
+    if not isinstance(args.input_files, list):
+        args.input_files = [args.input_files]
+
     if len(args.input_files) <= 1:
         if args.myresources:
             detection_task, classification_task = get_myresources()
