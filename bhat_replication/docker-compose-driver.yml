@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  spark-driver:
+    build: .
+    environment:
+      - SPARK_MASTER_URL=spark://spark:7077
+    networks:
+      - ml-network
+    ports:
+      - "4040:4040"
+    volumes:
+      - ./results:/results
+      - ./classifying_data.json:/classifying_data.json
+      - ./detection_data.json:/detection_data.json
+      - ./detection_data_issues.json:/detection_data_issues.json
+      - ./detection_data_ebse_issues_raw.json:/detection_data_ebse_issues_raw.json
+      - ./detect_and_classify__data.json:/detect_and_classify__data.json
+
+networks:
+  ml-network:
+    external: true

@@ -1,0 +1,530 @@
+{
+  "name": "__main__.py",
+  "help": "A Deep Learning CLI utility.",
+  "commands": [
+    {
+      "name": "gui",
+      "help": "Start an auxiliary analysis GUI.",
+      "args": []
+    },
+    {
+      "name": "list",
+      "help": "List options for various CLI options",
+      "args": [
+        {
+          "name": "arg",
+          "style": "positional",
+          "help": "Possible categories to list options for.",
+          "nargs": "1",
+          "type": "enum",
+          "options": [
+            "classifiers",
+            "inputs",
+            "outputs"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hyperparams",
+      "help": "View hyper-parameters for a classifier",
+      "args": [
+        {
+          "name": "classifier",
+          "help": "Classifier to view. Use `list` for options.",
+          "style": "positional",
+          "nargs": "1",
+          "type": "str"
+        }
+      ]
+    },
+    {
+      "name": "generator-params",
+      "help": "View parameters for a feature generator",
+      "args": [
+        {
+          "name": "generator",
+          "help": "Generator to view. Use `list` for options.",
+          "style": "positional",
+          "nargs": "1",
+          "type": "str"
+        }
+      ]
+    },
+    {
+      "name": "make-features",
+      "help": "Generate a collection of features",
+      "args": [
+        {
+          "name": "input-mode",
+          "alias": "i",
+          "help": "Generator to use. Use `list` for options.",
+          "style": "named",
+          "nargs": "+",
+          "type": "str"
+        },
+        {
+          "name": "output-mode",
+          "alias": "o",
+          "help": "Output mode to use. Use `list` for options.",
+          "style": "named",
+          "nargs": "1",
+          "type": "str"
+        },
+        {
+          "name": "file",
+          "alias": "f",
+          "help": "Data input file.",
+          "style": "named",
+          "nargs": "1",
+          "type": "class",
+          "options": [
+            "pathlib.Path"
+          ]
+        },
+        {
+          "name": "params",
+          "alias": "p",
+          "help": "Generator params. Items in the name=value format.",
+          "nargs": "+",
+          "type": "dict",
+          "style": "named"
+        },
+        {
+          "name": "ontology-classes",
+          "help": "Path to a file containing ontology classes.",
+          "nargs": "1",
+          "type": "str",
+          "default": "",
+          "style": "named"
+        },
+        {
+          "name": "apply-ontology-classes",
+          "help": "Enable application of ontology classes",
+          "style": "flag"
+        }
+      ]
+    },
+    {
+      "name": "run",
+      "help": "Train a classifier and store the results",
+      "import_args": [
+        "make-features/*"
+      ],
+      "args": [
+        {
+          "name": "classifier",
+          "help": "Classifier to use. Use `list` for options",
+          "style": "positional",
+          "nargs": "+",
+          "type": "str"
+        },
+        {
+          "name": "epochs",
+          "alias": "e",
+          "help": "Amount of training epochs",
+          "style": "named",
+          "nargs": "1",
+          "type": "int"
+        },
+        {
+          "name": "split-size",
+          "alias": "s",
+          "help": "Size of testing and validation splits.",
+          "type": "float",
+          "default": "0.2",
+          "style": "named",
+          "nargs": "1"
+        },
+        {
+          "name": "max-train",
+          "help": "Maximum amount of training items. -1 for infinite",
+          "style": "named",
+          "nargs": "1",
+          "type": "int",
+          "default": "-1"
+        },
+        {
+          "name": "k-cross",
+          "alias": "k",
+          "help": "Enable k-fold cross-validation.",
+          "style": "named",
+          "type": "int",
+          "default": "0",
+          "nargs": "1"
+        },
+        {
+          "name": "quick-cross",
+          "alias": "qc",
+          "help": "Enable k-fold cross validation",
+          "style": "flag"
+        },
+        {
+          "name": "cross-is-cross-project",
+          "help": "k-cross should be cross-project validation.",
+          "style": "flag"
+        },
+        {
+          "name": "force-regenerate-data",
+          "alias": "fr",
+          "help": "Force regeneration of data.",
+          "style": "flag"
+        },
+        {
+          "name": "architectural-only",
+          "alias": "ao",
+          "help": "If specified, only architectural issues are used",
+          "style": "flag"
+        },
+        {
+          "name": "hyper-params",
+          "alias": "hp",
+          "help": "Hyper-parameters params. Items in the name=value format.",
+          "nargs": "+",
+          "type": "dict",
+          "style": "named"
+        },
+        {
+          "name": "test-project",
+          "help": "Name of project to be used as the test set",
+          "style": "named",
+          "nargs": "1",
+          "type": "str",
+          "default": "None"
+        },
+        {
+          "name": "test-study",
+          "help": "Name of the study to be used as the test set",
+          "style": "named",
+          "nargs": "1",
+          "type": "str",
+          "default": "None"
+        },
+        {
+          "name": "class-balancer",
+          "help": "Enable Class-Balancing",
+          "style": "named",
+          "nargs": "1",
+          "type": "str",
+          "default": "None"
+        },
+        {
+          "name": "batch-size",
+          "help": "Specify the batch size used during training",
+          "type": "int",
+          "default": "32",
+          "style": "named"
+        },
+        {
+          "name": "peregrine",
+          "help": "Specify to enable running on peregrine",
+          "style": "flag"
+        },
+        {
+          "name": "combination-strategy",
+          "alias": "cs",
+          "help": "Strategy used to combine models. Use `combination-strategies` for more information.",
+          "nargs": "1",
+          "style": "named",
+          "default": "concat",
+          "type": "enum",
+          "options": [
+            "add",
+            "subtract",
+            "min",
+            "max",
+            "multiply",
+            "dot",
+            "concat"
+          ]
+        },
+        {
+          "name": "ensemble-strategy",
+          "alias": "es",
+          "help": "Strategy used to combine models. Use `combination-strategies` for more information.",
+          "nargs": "1",
+          "style": "named",
+          "default": "none",
+          "type": "enum",
+          "options": [
+            "stacking",
+            "boosting",
+            "voting"
+          ]
+        },
+        {
+          "name": "stacking-meta-classifier",
+          "help": "Classifier to use as meta-classifier in stacking.",
+          "nargs": "1",
+          "type": "str",
+          "style": "named"
+        },
+        {
+          "name": "stacking-meta-classifier-hyper-parameters",
+          "help": "Hyper-parameters for the meta-classifier",
+          "type": "dict",
+          "nargs": "+",
+          "style": "named"
+        },
+        {
+          "name": "stacking-use-concat",
+          "help": "Use simple concatenation to create the input for the meta classifier",
+          "style": "flag",
+          "nargs": "1"
+        },
+        {
+          "name": "stacking-no-matrix",
+          "help": "Disallow the use of matrices for meta classifier input",
+          "style": "flag",
+          "nargs": "1"
+        },
+        {
+          "name": "boosting-rounds",
+          "help": "Amount of rounds in the boosting process",
+          "style": "named",
+          "nargs": "1",
+          "default": "10",
+          "type": "int"
+        },
+        {
+          "name": "use-early-stopping",
+          "help": "If specified, use early stopping.",
+          "nargs": "1",
+          "style": "flag"
+        },
+        {
+          "name": "early-stopping-patience",
+          "help": "Patience used when using early stopping",
+          "nargs": "1",
+          "style": "named",
+          "type": "int",
+          "default": "5"
+        },
+        {
+          "name": "early-stopping-min-delta",
+          "help": "Minimum delta used when using early stopping. One entry for every attribute used.",
+          "nargs": "+",
+          "style": "named",
+          "type": "float",
+          "default": "0.001"
+        },
+        {
+          "name": "early-stopping-attribute",
+          "help": "Attribute(s) to use for early stopping (from the validation set)",
+          "nargs": "+",
+          "style": "named",
+          "type": "str",
+          "default": "loss"
+        },
+        {
+          "name": "test-separately",
+          "help": "If given, disable combining multiple classifiers. In stead, test them separately on the same data.",
+          "style": "flag"
+        }
+     ]
+    },
+    {
+      "name": "visualize",
+      "help": "Visualize a classifier",
+      "import_args": [
+        "run/classifier",
+        "make-features/*",
+        "run/output-mode",
+        "run/hyper-params"
+      ]
+    },
+    {
+      "name": "combination-strategies",
+      "help": "Give a comprehensive overview of all available model combination strategies."
+    }
+  ],
+  "subparsers": [
+    {
+      "name": "run_analysis",
+      "help": "Analyze the results of deep learning runs",
+      "commands": [
+        {
+          "name": "summarize",
+          "help": "display the results for a single run",
+          "args": [
+            {
+              "name": "file",
+              "help": "File whose content to summarize",
+              "style": "positional",
+              "type": "str",
+              "nargs": "1"
+            },
+            {
+              "name": "short",
+              "alias": "s",
+              "help": "If given, only give the four main metrics.",
+              "style": "flag"
+            },
+            {
+              "name": "trim",
+              "alias": "t",
+              "help": "If given, perform early-stopping analysis",
+              "style": "flag"
+            },
+            {
+              "name": "patience",
+              "alias": "p",
+              "help": "Patience for early stopping analysis",
+              "type": "int",
+              "nargs": "1",
+              "default": "1",
+              "style": "named"
+            },
+            {
+              "name": "min-index",
+              "alias": "i",
+              "help": "Min-index for early stopping analysis",
+              "type": "int",
+              "nargs": "1",
+              "default": "0",
+              "style": "named"
+            },
+            {
+              "name": "min-delta",
+              "alias": "d",
+              "help": "Min-delta for early stopping analysis",
+              "type": "float",
+              "nargs": "+",
+              "default": "0.001",
+              "style": "named"
+            },
+            {
+              "name": "trimming-attribute",
+              "help": "Attributes to perform early stopping with",
+              "type": "str",
+              "nargs": "+",
+              "default": "val-loss",
+              "style": "named"
+            },
+            {
+              "name": "max-attribute",
+              "help": "Attribute for selecting the best run of a k-fold",
+              "type": "str",
+              "nargs": "1",
+              "default": "None",
+              "style": "named"
+            }
+          ]
+        },
+        {
+          "name": "plot",
+          "help": "Plot various metrics in a plot",
+          "import_args": [
+            "summarize/trim",
+            "summarize/patience",
+            "summarize/min-index",
+            "summarize/min-delta",
+            "summarize/trimming-attribute"
+          ],
+          "args": [
+            {
+              "name": "files",
+              "help": "Files to analyze",
+              "style": "positional",
+              "nargs": "+",
+              "type": "str"
+            },
+            {
+              "name": "attributes",
+              "help": "Attributes to plot",
+              "style": "named",
+              "nargs": "+",
+              "type": "str"
+            },
+            {
+              "name": "plot-type",
+              "help": "Type of plot to make. Either `line` or `bar`.",
+              "style": "named",
+              "nargs": "1",
+              "default": "line",
+              "type": "enum",
+              "options": [
+                "line",
+                "bar"
+              ]
+            },
+            {
+              "name": "include-maxima",
+              "help": "Whether to mark near-global maxima in the plots",
+              "style": "flag"
+            },
+            {
+              "name": "tolerance",
+              "help": "Tolerance when determining near-global maxima",
+              "style": "named",
+              "default": "0.1",
+              "type": "float",
+              "nargs": "1"
+            }
+          ]
+        },
+        {
+          "name": "compare",
+          "help": "Compare various file through sorting",
+          "import_args": [
+            "summarize/trim",
+            "summarize/patience",
+            "summarize/min-index",
+            "summarize/min-delta",
+            "summarize/trimming-attribute",
+            "summarize/max-attribute",
+            "plot/files",
+            "plot/attributes"
+          ]
+        },
+        {
+          "name": "plot-attributes",
+          "help": "Plot an attribute across all folds.",
+          "import_args": [
+            "summarize/file",
+            "summarize/trim",
+            "summarize/patience",
+            "summarize/min-index",
+            "summarize/min-delta",
+            "summarize/trimming-attribute",
+            "plot/attributes"
+          ]
+        },
+        {
+          "name": "confusion",
+          "help": "Plot the confusion matrix of the given file",
+          "import_args": [
+            "summarize/file",
+            "summarize/trim",
+            "summarize/patience",
+            "summarize/min-index",
+            "summarize/min-delta",
+            "summarize/trimming-attribute"
+          ]
+        },
+        {
+          "name": "compare-stats",
+          "help": "Test statistical significance of difference between k-fold runs.",
+          "import_args": [
+            "summarize/trim",
+            "summarize/patience",
+            "summarize/min-index",
+            "summarize/min-delta",
+            "summarize/trimming-attribute",
+            "summarize/max-attribute",
+            "plot/files"
+          ],
+          "args": [
+            {
+              "name": "attribute",
+              "help": "Attribute to compare",
+              "style": "named",
+              "type": "str",
+              "nargs": "1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
