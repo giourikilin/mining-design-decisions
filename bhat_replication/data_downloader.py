@@ -1,6 +1,10 @@
+# This is a quick-and-dirty script to download the Bhat dataset
+
 import json
 import re
+import shlex
 import typing
+import os
 import subprocess
 
 
@@ -11,12 +15,52 @@ class Issue(typing.NamedTuple):
     is_arch: bool
     arch_type: str
 
-STEP = 1
+
+# Debugging variable, used to go through the program in steps,
+# or to skip steps.
+STEP = 0
+
+if STEP == 0:
+    # The basic link on where to find the dataset is given by:
+    #
+    # https://server.sociocortex.com/typeDefinitions/1vk4hqzziw3jp/Task
+    #
+    # However, the "download as CSV" option does not work. Hence,
+    # we use the API exposed by the website. The basic API
+    # route is https://server.sociocortex.com/api/v1/
+    #
+    # First, we can get a list of workspace IDs using
+    # curl https://server.sociocortex.com/api/v1/workspaces
+    #
+    # This tells us that the Amelie workspace
+    # (the workspace containing the dataset)
+    # is located at
+    # https://server.sociocortex.com/api/v1/workspaces/1iksmphpafkxq
+    #
+    # We can now get a list of entities belonging to the workspace
+    # using
+    # curl https://server.sociocortex.com/api/v1/workspaces/1iksmphpafkxq/entities
+    #
+    # The response of this requested is to be saved in todo.txt
+    if not os.path.exists('todo.txt'):
+        subprocess.run(
+            shlex.split(
+                'curl -k https://server.sociocortex.com/api/v1/workspaces/1iksmphpafkxq/entities > todo.txt'
+            ),
+            shell=True
+        )
+    STEP = 1
+
 
 if STEP == 1:
+    # todo.txt contains a list of all the entities in the Amelie workspace.
+    # We now have to filter our all items in the dataset.
+    # We initially trim the amount of entities down by looking for items
+    # with "SPARK" or "HADOOP" in their name.
+    # In the next step, we make sure these entity names all follow
+    # the (SPARK|HADOOP)-\d+ pattern.
     with open('todo.txt') as file:
         entities = json.load(file)
-
 
     final = []
     for entity in entities:
@@ -74,12 +118,15 @@ if STEP == 3:
 
     def __get(url):
         print(url)
-        info = subprocess.run(f'curl {url}', stdout=subprocess.PIPE)
+        info = subprocess.run(shlex.split(f'curl -k {url}'), stdout=subprocess.PIPE)
         return json.loads(info.stdout.decode())
 
     for entity in entities:
         response = __get(entity['href'])
         if 'attributes' not in response:
+            continue
+        # Check that the issue belongs to the correct workspace
+        if response['entityType']['id'] != '1vk4hqzziw3jp':
             continue
         attributes = response['attributes']
         summary = find_field(attributes, 'summary')
