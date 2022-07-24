@@ -123,7 +123,8 @@ STRATEGIES = {
     'dot': 'Combine two inputs or layers by computing their dot product.',
     'concat': 'Combine two inputs or layers by combining them into one single large layer.',
     'boosting': 'Train a strong classifier using boosting. Only a single model must be given.',
-    'stacking': 'Train a strong classifier using stacking. Ignores the simple combination strategy.'
+    'stacking': 'Train a strong classifier using stacking. Ignores the simple combination strategy.',
+    'voting': 'Train a strong classifier using voting. Ignores the simple combination strategy.'
 }
 
 
@@ -178,7 +179,7 @@ def _print_keys(keys):
 
 
 def run_hyper_params_command():
-    classifier = conf.get('hyper-params.classifier')
+    classifier = conf.get('hyperparams.classifier')
     if classifier not in classifiers.models:
         return print(f'Unknown classifier: {classifier}')
     cls = classifiers.models[classifier]
