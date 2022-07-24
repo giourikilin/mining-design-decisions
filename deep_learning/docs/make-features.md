@@ -47,4 +47,7 @@ must be simplified using ontology classes. Words occurring in the
 given ontology classes will in stead be replaced with the class names.
 
 `--params` is a list of `key=value` items used to specify parameters for the 
-feature generator. See the docs of the [run](./run.md) command for an example.
+feature generator. See the docs of the [run](./run.md) command for 
+more information; `--params` works in exactly the same way as 
+`--hyper-params`, including prefixing mechanics in case multiple 
+feature generators are used (in the `run` command).
