@@ -1,0 +1,8 @@
+alternative
+option
+choice
+direction
+way
+trend
+solution
+tendency
