@@ -41,6 +41,17 @@ class HyperParameter(typing.NamedTuple):
     default: numbers.Number
 
 
+def _fix_hyper_params(function):
+    def wrapper(*args):
+        hyper_params = function(*args)
+        assert isinstance(hyper_params, dict)
+        return {
+            name.replace('_', '-'): value
+            for name, value in hyper_params.items()
+        }
+    return wrapper
+
+
 ##############################################################################
 ##############################################################################
 # Main class

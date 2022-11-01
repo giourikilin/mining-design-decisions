@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-from .model import AbstractModel, HyperParameter, InputEncoding
+from .model import AbstractModel, HyperParameter, InputEncoding, _fix_hyper_params
 
 
 class LinearRNNModel(AbstractModel):
@@ -39,6 +39,7 @@ class LinearRNNModel(AbstractModel):
         return False
 
     @classmethod
+    @_fix_hyper_params
     def get_hyper_parameters(cls) -> dict[str, HyperParameter]:
         return {
             'bidirectional_layer_size': HyperParameter(

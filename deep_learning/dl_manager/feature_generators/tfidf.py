@@ -47,4 +47,4 @@ class TfidfGenerator(AbstractFeatureGenerator):
 
     @staticmethod
     def get_parameters() -> dict[str, ParameterSpec]:
-        return super().get_parameters()
+        return super(TfidfGenerator, TfidfGenerator).get_parameters()

@@ -229,7 +229,18 @@ def run_make_features_command():
     for imode in input_mode:
         number = imode_counts[imode]
         imode_counts[imode] += 1
-        mode_params = params.get(imode, {}) | params.get('default', {}) | params.get(f'{imode}[{number}]', {})
+        # Get the parameters for the feature generator
+        mode_params = _normalize_param_names(
+            params.get(imode, {}) |
+            params.get('default', {}) |
+            params.get(f'{imode}[{number}]', {})
+        )
+        # Validate that the parameters are valid
+        valid_params = feature_generators.generators[imode].get_parameters()
+        for param_name in mode_params:
+            if param_name not in valid_params:
+                raise ValueError(f'Invalid parameter for feature generator {imode}: {param_name}')
+        # Generate the features
         filename = data_manager.get_feature_file(source_file,
                                                  imode,
                                                  output_mode,
@@ -330,6 +341,8 @@ def _get_model_factory(input_mode,
                        classifier):
     # 1) Re-generate data
     if regenerate_data:
+        # We can directly delegate to the `make-features` command,
+        # which will also perform --param validation
         run_make_features_command()
 
     # 2) Collect all datasets
@@ -405,11 +418,15 @@ def _get_model_factory(input_mode,
             models.append(model)
             number = model_counts[name]
             model_counts[name] += 1
-            hyperparams = (
+            hyperparams = _normalize_param_names(
                     hyper_parameters.get(name, {}) |
                     hyper_parameters.get(f'{name}[{number}]', {}) |
                     hyper_parameters.get('default', {})
             )
+            allowed_hyper_params = model.get_hyper_parameters()
+            for param_name in hyperparams:
+                if param_name not in allowed_hyper_params:
+                    raise ValueError(f'Illegal hyperparameter for model {name}: {param_name}')
             if data.is_embedding():
                 keras_model = model.get_compiled_model(embedding=data.embedding_weights,
                                                        embedding_size=data.vocab_size,
@@ -433,3 +450,5 @@ def _get_model_factory(input_mode,
     return datasets, labels, factory
 
 
+def _normalize_param_names(params):
+    return {key.replace('_', '-'): value for key, value in params.items()}

@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-from .model import AbstractModel, HyperParameter, InputEncoding
+from .model import AbstractModel, HyperParameter, InputEncoding, _fix_hyper_params
 
 
 class LinearConv1Model(AbstractModel):
@@ -56,6 +56,7 @@ class LinearConv1Model(AbstractModel):
         return True
 
     @classmethod
+    @_fix_hyper_params
     def get_hyper_parameters(cls) -> dict[str, HyperParameter]:
         return {
             'fully_connected_layer_size': HyperParameter(

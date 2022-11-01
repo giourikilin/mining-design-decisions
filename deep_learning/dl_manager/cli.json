@@ -61,7 +61,8 @@
           "help": "Generator to use. Use `list` for options.",
           "style": "named",
           "nargs": "+",
-          "type": "str"
+          "type": "str",
+          "required": true
         },
         {
           "name": "output-mode",
@@ -69,7 +70,8 @@
           "help": "Output mode to use. Use `list` for options.",
           "style": "named",
           "nargs": "1",
-          "type": "str"
+          "type": "str",
+          "required": true
         },
         {
           "name": "file",
@@ -78,6 +80,7 @@
           "style": "named",
           "nargs": "1",
           "type": "class",
+          "required": true,
           "options": [
             "pathlib.Path"
           ]
@@ -125,7 +128,8 @@
           "help": "Amount of training epochs",
           "style": "named",
           "nargs": "1",
-          "type": "int"
+          "type": "int",
+          "required": true
         },
         {
           "name": "split-size",

@@ -40,4 +40,4 @@ class AbstractBOW(AbstractFeatureGenerator, abc.ABC):
 
     @staticmethod
     def get_parameters() -> dict[str, ParameterSpec]:
-        return {} | super().get_parameters()
+        return {} | super(AbstractBOW, AbstractBOW).get_parameters()

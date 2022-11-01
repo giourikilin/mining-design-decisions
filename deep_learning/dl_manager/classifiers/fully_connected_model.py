@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-from .model import AbstractModel, HyperParameter, InputEncoding
+from .model import AbstractModel, HyperParameter, InputEncoding, _fix_hyper_params
 
 
 class FullyConnectedModel(AbstractModel):
@@ -39,6 +39,7 @@ class FullyConnectedModel(AbstractModel):
         return False
 
     @classmethod
+    @_fix_hyper_params
     def get_hyper_parameters(cls) -> dict[str, HyperParameter]:
         return {
             'number_of_hidden_layers': HyperParameter(default=1,
