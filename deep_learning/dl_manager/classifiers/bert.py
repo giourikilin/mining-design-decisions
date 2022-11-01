@@ -2,7 +2,7 @@ import tensorflow as tf
 import tensorflow_hub as hub
 import tensorflow_text as text
 
-from .model import AbstractModel, HyperParameter, InputEncoding
+from .model import AbstractModel, HyperParameter, InputEncoding, _fix_hyper_params
 
 
 class Bert(AbstractModel):
@@ -35,5 +35,6 @@ class Bert(AbstractModel):
         return False
 
     @classmethod
+    @_fix_hyper_params
     def get_hyper_parameters(cls) -> dict[str, HyperParameter]:
         return {} | super().get_hyper_parameters()

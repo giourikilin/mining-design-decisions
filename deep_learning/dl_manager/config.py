@@ -390,6 +390,8 @@ def _add_argument(parser,
         kwargs |= extra_args
     if argument.get('nargs', '1') != '1':
         kwargs['nargs'] = argument['nargs']
+    if argument.get('required', False):
+        kwargs['required'] = argument['required']
     if 'default' in argument:
         default_value = arg_type(argument['default'])
         if argument.get('nargs', '1') != '1':

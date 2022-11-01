@@ -45,4 +45,4 @@ class AbstractWord2Vec(AbstractFeatureGenerator, abc.ABC):
             'pretrained-binary': ParameterSpec(
                 description='specify is pretrained word2vec is binary'
             ),
-        } | super().get_parameters()
+        } | super(AbstractWord2Vec, AbstractWord2Vec).get_parameters()

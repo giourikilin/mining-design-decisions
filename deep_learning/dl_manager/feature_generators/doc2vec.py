@@ -41,4 +41,4 @@ class Doc2Vec(AbstractFeatureGenerator):
             'vector-length': ParameterSpec(
                 description='specify the length of the output vector'
             ),
-        } | super().get_parameters()
+        } | super(Doc2Vec, Doc2Vec).get_parameters()

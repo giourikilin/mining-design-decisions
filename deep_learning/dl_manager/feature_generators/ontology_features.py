@@ -69,4 +69,4 @@ class OntologyFeatures(AbstractFeatureGenerator):
 
     @staticmethod
     def get_parameters() -> dict[str, ParameterSpec]:
-        return super().get_parameters()
+        return super(OntologyFeatures, OntologyFeatures).get_parameters()

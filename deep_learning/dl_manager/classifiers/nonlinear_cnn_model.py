@@ -2,7 +2,7 @@ from abc import ABC
 
 import tensorflow as tf
 
-from .model import AbstractModel, HyperParameter, InputEncoding
+from .model import AbstractModel, HyperParameter, InputEncoding, _fix_hyper_params
 
 
 class NonlinearConv2Model(AbstractModel):
@@ -59,6 +59,7 @@ class NonlinearConv2Model(AbstractModel):
         return True
 
     @classmethod
+    @_fix_hyper_params
     def get_hyper_parameters(cls) -> dict[str, HyperParameter]:
         return {
             'number_of_convolutions': HyperParameter(
