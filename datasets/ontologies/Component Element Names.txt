@@ -1,0 +1,28 @@
+method
+methods
+stored procedure
+procedure
+procedures
+operation
+operations
+interface
+interfaces
+field
+fields
+event
+events
+button
+buttons
+text box
+endpoint
+endpoints
+job
+jobs
+function
+functions
+class
+classes
+file
+files
+module
+modules

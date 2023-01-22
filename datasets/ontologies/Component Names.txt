@@ -1,0 +1,38 @@
+legacycomponent
+componentsapplication
+applicationsmachine
+machinesserver
+serversclient
+clientsusersuserback end
+back endsservice
+servicessystem
+systemsthread
+threadsplatform
+platformsdevices
+devicesource
+sourcesbeans
+beantable
+tables
+record
+records
+queue
+queuesfront ends
+front endmainframehost
+hostsAPIs
+APIapp
+appsboxes
+boxQphysical locations
+physical locationengine
+enginesprocess
+processesprogram
+programslistenerListenersworkers
+workercomputers
+computermodel
+modelsentities
+entitydata store
+datastore
+storecontextViewModelsdatabaseproducers
+producer
+consumers
+consumersession
+sessionslogicpage

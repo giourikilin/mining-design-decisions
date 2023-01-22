@@ -1,0 +1,161 @@
+pattern
+tactic
+blocking
+synchronous
+sync
+half-sync
+half sync
+asynchronous
+async
+half-async
+half async
+non-blocking
+blocking
+broadcast
+messaging
+broker
+layer
+client/server
+client-server
+client server
+client
+server
+callback
+loosely coupled
+multicast
+MVC
+modal view controller
+modalviewcontroller
+MVP
+MVVM
+controller
+view
+NIO
+messaging
+queuing
+queue
+fifo
+publish subscribe
+publish-subscribe
+subscribe/publish
+subscribe-publish
+publish/subscribe
+publish-subscribe
+publish and subscribe
+pub/sub
+pub sub
+pub-sub
+broadcast
+event based
+event-based
+event/based
+event driven
+event-driven
+event/driven
+REST
+RESTful
+routing
+translator
+translate
+router
+channel
+endpoint
+dispatcher
+publisher
+subscriber
+rpc
+remote procedure
+remote-procedure
+remote/procedure
+poll
+polling
+peer to peer
+peer-to-peer
+peer2peer
+p2p
+supernode
+service-oriented
+service oriented
+service/oriented
+SOA
+Software as a service
+SaaS
+store-and-forward queue
+shared repository
+shared-repository
+active repository
+active-repository
+repository
+blackboard
+proxy
+resource pool
+cache
+lookup
+evictor
+handler
+reactor
+master-slave
+master slave
+master/slave
+encapsulation
+encapsulate
+intermediary
+cohesion
+replication
+interceptor
+reflection
+interpreter
+microkernel
+pipes and filters
+pipe
+filter
+facade
+monitor
+monitoring
+ping
+heartbeat
+timestamp
+sanity
+voting
+redundancy
+shadow
+orchestration
+orchestrate
+coherence
+concurrency
+authenticate
+authentication
+authorise
+authorize
+authorization
+encrypt
+encryption
+ipc
+load balancing
+load-balancing
+load balance
+load-balance
+multi-tenant
+multi tenant
+multitenant
+named-pipes
+namedpipes
+named pipes
+data-ingest
+dataingest
+transactional
+stream
+stream-storage
+streamstorage
+stream-processing
+streamprocessing
+structured
+unstructured
+hot
+warm
+cold
+batch
+batch-processing
+temperature
+interactive analytics
+interactive-analytics
