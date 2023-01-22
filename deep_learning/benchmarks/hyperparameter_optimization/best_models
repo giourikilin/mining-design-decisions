@@ -1,5 +1,0 @@
-Metadata Detection
-Dense(16) - Dense(4)
-
-Ontology Detection
-Dense(128) - Dense(16)

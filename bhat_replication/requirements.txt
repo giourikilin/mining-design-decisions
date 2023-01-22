@@ -1,7 +1,0 @@
-typing==3.7.4.3
-nltk==3.7
-gensim==4.1.2
-sklearn
-numpy
-pyspark==3.2.1
-libsvm
