@@ -1,5 +1,0 @@
-depend
-rely
-implement
-count on
-build
