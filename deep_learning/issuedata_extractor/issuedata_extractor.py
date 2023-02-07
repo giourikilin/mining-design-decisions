@@ -1,5 +1,5 @@
 import json
-import config
+#import config
 from jira import JIRA
 
 APACHE_JIRA_SERVER = 'https://issues.apache.org/jira/'
@@ -32,11 +32,13 @@ def get_issue_var(fields, path, field_type):
 
 def main():
     # Authenticate with the jira server
-    jira = JIRA(APACHE_JIRA_SERVER, basic_auth=(config.username, config.password))
+    # jira = JIRA(APACHE_JIRA_SERVER, basic_auth=(config.username, config.password))
+    jira = JIRA(APACHE_JIRA_SERVER) 
 
     # Read the issue keys
     keys = []
-    with open('../data/labels/EBSE_labels.json') as file:
+    # with open('../data/labels/EBSE_labels.json') as file: C:\Users\Gebruiker\Desktop\mining-design-decisions\datasets\labels
+    with open('C:/Users/Gebruiker/Desktop/mining-design-decisions/datasets/labels/myLabels.json') as file:
         labels = json.load(file)
         for label in labels:
             keys.append(label['key'])
@@ -108,7 +110,7 @@ def main():
         }
         json_list.append(dictionary)
 
-    with open('../data/issuedata/EBSE_issues_raw.json', 'w') as json_file:
+    with open('C:/Users/Gebruiker/Desktop/mining-design-decisions/datasets/issuedata/my_issues_raw.json', 'w') as json_file:
         json.dump(json_list, json_file, indent=4)
 
 

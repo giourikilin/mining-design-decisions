@@ -2,12 +2,13 @@ import json
 
 import gensim
 import nltk
+nltk.download('wordnet')
 
 from text_cleaner import remove_formatting, reporter, fix_punctuation, FormattingHandling
 
 
 # Cleans the text of an issue
-def clean_issue_text(text: str, key: str, formatting_handling) -> list[str]:
+def clean_issue_text(text: str, key: str, formatting_handling) -> "list[str]":
     text = fix_punctuation(remove_formatting(text, key, formatting_handling))
     sentences = nltk.tokenize.sent_tokenize(text)
     # text = '. '.join([' '.join(list(gensim.utils.tokenize(sentence))) for sentence in sentences])
@@ -122,24 +123,40 @@ def create_json(input_filename, output_filename, label_filename, study, encoding
 
 
 def main():
-    with open('../data/issuedata/EBSE_issues_raw.json') as file:
+    with open('C:/Users/Gebruiker/Desktop/mining-design-decisions/datasets/issuedata/my_issues_raw.json') as file:
         issues = json.load(file)
-    with open('../data/issuedata/BHAT_issues_raw.json') as file:
-        issues += json.load(file)
-    encodings = get_encodings(issues, ['components', 'issuetype', 'labels', 'priority', 'resolution', 'status'])
 
-    create_json('../data/issuedata/EBSE_issues_raw.json',
-                '../data/issuedata/EBSE_issues_formatting-markers.json',
-                '../data/labels/EBSE_labels.json',
-                'EBSE',
+    # with open('../data/issuedata/EBSE_issues_raw.json') as file: C:/Users/Gebruiker/Desktop/mining-design-decisions/datasets/issuedata/
+    #     issues = json.load(file)
+
+    encodings = get_encodings(issues, ['components', 'issuetype', 'labels', 'priority', 'resolution', 'status'])
+    create_json('C:/Users/Gebruiker/Desktop/mining-design-decisions/datasets/issuedata/my_issues_raw.json',
+                'C:/Users/Gebruiker/Desktop/mining-design-decisions/datasets/issuedata/my_issues_formatting-markers.json',
+                'C:/Users/Gebruiker/Desktop/mining-design-decisions/datasets/labels/myLabels.json',
+                'myIssues',
                 encodings)
-    create_json('../data/issuedata/BHAT_issues_raw.json',
-                '../data/issuedata/BHAT_issues_formatting-markers.json',
-                '../data/labels/BHAT_labels.json',
-                'BHAT',
-                encodings)
+
+
+    # with open('../data/issuedata/BHAT_issues_raw.json') as file:
+    #     issues += json.load(file)
+    # encodings = get_encodings(issues, ['components', 'issuetype', 'labels', 'priority', 'resolution', 'status'])
+
+    # create_json('../data/issuedata/EBSE_issues_raw.json',
+    #             '../data/issuedata/EBSE_issues_formatting-markers.json',
+    #             '../data/labels/EBSE_labels.json',
+    #             'EBSE',
+    #             encodings)
+    # create_json('../data/issuedata/BHAT_issues_raw.json',
+    #             '../data/issuedata/BHAT_issues_formatting-markers.json',
+    #             '../data/labels/BHAT_labels.json',
+    #             'BHAT',
+    #             encodings)
     # reporter.print_report()
 
 
 if __name__ == '__main__':
     main()
+
+
+
+#python __main__.py run LinearConv1Model --input-mode BOWNormalized --output-mode Detection --file 'C:/Users/Gebruiker/Desktop/mining-design-decisions/datasets/issuedata/my_issues_formatting-markers.json' --params max-len=400 --hyper-params optimizer=adam loss=crossentropy --k-cross 10 --quick-cross --epochs 10

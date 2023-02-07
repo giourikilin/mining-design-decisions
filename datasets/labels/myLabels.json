@@ -1,0 +1,3218 @@
+[
+    {
+        "key": "SOLR-8096",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "True"
+        }
+      },
+      {
+        "key": "SOLR-12798",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "True"
+        }
+      },
+      {
+        "key": "SOLR-13101",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "True"
+        }
+      },
+      {
+        "key": "SOLR-11598",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "True"
+        }
+      },
+      {
+        "key": "JSPWIKI-924",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "True"
+        }
+      },
+      {
+        "key": "JSPWIKI-738",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "True"
+        }
+      },
+      {
+        "key": "SOLR-13579",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "True"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-13661",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "True"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-6734",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "True"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-645",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "True"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "True"
+        }
+      },
+      {
+        "key": "SOLR-445",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "True"
+        }
+      },
+      {
+        "key": "SOLR-13439",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "True"
+        }
+      },
+      {
+        "key": "SOLR-578",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "True"
+        }
+      },
+      {
+        "key": "SOLR-143",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "True"
+        }
+      },
+      {
+        "key": "SOLR-72",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "True"
+        }
+      },
+      {
+        "key": "SOLR-80",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "True"
+        }
+      },
+      {
+        "key": "SOLR-817",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "True"
+        }
+      },
+      {
+        "key": "SOLR-10317",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "True"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-2382",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "True"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-12297",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "True"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-8029",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "True"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-2155",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "True"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-4509",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "True"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-8542",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "True"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-7739",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "True"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-7191",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "True"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-8207",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "True"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-10233",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "True"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-464",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "True"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-236",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-4470",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-1301",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-1895",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-13132",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-1277",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-2382",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-1568",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-3076",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-5944",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-1725",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-4787",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-8241",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-646",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-14414",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-1677",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-2242",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-14397",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-8440",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-11722",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-139",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-11487",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-7344",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-284",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-9038",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-469",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-4114",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-1709",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-2592",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-5463",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-9835",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-1316",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-13807",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-303",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-8349",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-3056",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-3251",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-1131",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-1449",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-2202",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-13890",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-350",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-13749",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-15036",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-14354",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-5468",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-799",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-7896",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-2765",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-566",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-651",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-376",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-205",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-155",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-212",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-351",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-628",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-20",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-440",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-107",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-266",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-622",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-502",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-419",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-110",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-806",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-1146",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-761",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-217",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-856",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-1170",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-276",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-792",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-1140",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-454",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-528",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-120",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-206",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-517",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-261",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-381",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-575",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-422",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-215",
+        "is-design": "True",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "True"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "True"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "True"
+        }
+      },
+      {
+        "key": "SOLR-14788",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-2894",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-3619",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-773",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-14636",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-4792",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-10229",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-14613",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-5473",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-1602",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-3204",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-13942",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-13452",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-4735",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-3178",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-9959",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-1972",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-572",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-5287",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-13888",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-2399",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-4586",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-561",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-5302",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-14701",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-3161",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-8220",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-11917",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-10574",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-3141",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "SOLR-11078",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-38",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-465",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-196",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-476",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-102",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-1131",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-504",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-841",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-50",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-257",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-498",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-396",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-739",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-698",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-659",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-333",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-777",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-796",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-159",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-814",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-655",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-931",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-809",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-620",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-198",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-140",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-436",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-505",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-184",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-438",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-811",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-409",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-186",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-471",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-94",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-8",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-666",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-547",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-883",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-473",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-799",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-89",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-699",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-103",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-407",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-22",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-348",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-324",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-746",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-743",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-185",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-268",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-268",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-382",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-812",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-1049",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      },
+      {
+        "key": "JSPWIKI-885",
+        "is-design": "False",
+        "is-cat1": {
+          "name": "Existence",
+          "value": "False"
+        },
+        "is-cat2": {
+          "name": "Executive",
+          "value": "False"
+        },
+        "is-cat3": {
+          "name": "Property",
+          "value": "False"
+        }
+      }
+]
